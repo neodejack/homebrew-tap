@@ -43,7 +43,8 @@ class Rr < Formula
 
       congrats. your life will be easier and happier from now on
 
-      \e]8;;https://www.youtube.com/watch?v=dQw4w9WgXcQ\e\\click me and don't forget to dance!\e]8;;\e\\
+      click me and don't forget to dance!
+      https://www.youtube.com/watch?v=dQw4w9WgXcQ
       ======================================================
     EOS
   end
