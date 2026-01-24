@@ -27,6 +27,13 @@ class Rr < Formula
     bin.install "rr"
   end
 
+  def caveats
+    <<~EOS
+      To enable the rr zsh integration
+        echo 'eval "$(rr zsh)"' >> ~/.zshrc
+    EOS
+  end
+
   test do
     system bin/"rr", "--help"
   end
