@@ -29,8 +29,22 @@ class Rr < Formula
 
   def caveats
     <<~EOS
-      To enable the rr zsh integration
-        echo 'eval "$(rr zsh)"' >> ~/.zshrc
+      ======================================================
+       ██████╗ ██████╗     ZSH INTEGRATION REQUIRED
+       ██╔══██╗██╔══██╗    (rr is not enabled yet)
+       ██████╔╝██████╔╝
+       ██╔══██╗██╔══██╗
+       ██║  ██║██║  ██║
+       ╚═╝  ╚═╝╚═╝  ╚═╝
+
+      Run this to enable rr in zsh:
+
+      echo 'eval "$(rr zsh)"' >> ~/.zshrc
+
+      congrats. your life will be easier and happier from now on
+
+      \e]8;;https://www.youtube.com/watch?v=dQw4w9WgXcQ\e\\click me and don't forget to dance!\e]8;;\e\\
+      ======================================================
     EOS
   end
 
