@@ -5,21 +5,21 @@ class Rr < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/neodejack/rr/releases/download/v0.1.9/rr_macos_arm.tar.gz"
-      sha256 "9443aa823754023b30ec525d9df07c5181d73734da2b9e6ccdb2dc37e7e30c52"
+      url "https://github.com/neodejack/rr/releases/download/v0.1.10/rr_macos_arm.tar.gz"
+      sha256 "922de80c9c28d9f861b98c3e1399b0a43d5c3059c4c19c802b0a9fadaaf210dd"
     else
-      url "https://github.com/neodejack/rr/releases/download/v0.1.9/rr_macos.tar.gz"
-      sha256 "fe308393f2a223d6ce4582791ded9509ba8d13c20eca65c7019b199008be0645"
+      url "https://github.com/neodejack/rr/releases/download/v0.1.10/rr_macos.tar.gz"
+      sha256 "a4036e42f41ac2bf376373e996223e7fa327a4f42fded356b73c5a3ee0b537d6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/neodejack/rr/releases/download/v0.1.9/rr_linux_arm.tar.gz"
-      sha256 "7f57cab7237771cec64a20cb65d2865da7186d47c56ea5cedd987dfd10972040"
+      url "https://github.com/neodejack/rr/releases/download/v0.1.10/rr_linux_arm.tar.gz"
+      sha256 "b787f9ca4d0592b7e44c80c4b553f39aabca60484583f6e9bf603b5bb4c3ce4e"
     else
-      url "https://github.com/neodejack/rr/releases/download/v0.1.9/rr_linux.tar.gz"
-      sha256 "395fba877f7a8be6ec3fcb269f0a639414e639ffe4eb34358d94cfb931abfb6f"
+      url "https://github.com/neodejack/rr/releases/download/v0.1.10/rr_linux.tar.gz"
+      sha256 "29a34593cbd9598ebbf3947080e85e3892b920061a072c7e29d9b86416c188e6"
     end
   end
 
