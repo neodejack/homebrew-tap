@@ -30,20 +30,16 @@ class Rr < Formula
   def caveats
     <<~EOS
       ======================================================
-       ██████╗ ██████╗     ZSH INTEGRATION REQUIRED
-       ██╔══██╗██╔══██╗    (rr is not enabled yet)
-       ██████╔╝██████╔╝
-       ██╔══██╗██╔══██╗
-       ██║  ██║██║  ██║
-       ╚═╝  ╚═╝╚═╝  ╚═╝
+      Run this to enable the `yo` command, if you use zsh:
 
-      Run this to enable rr in zsh:
+        rr yo >> ~/.zshrc
 
-      echo 'eval "$(rr zsh)"' >> ~/.zshrc
+      or if you use bash:
 
-      congrats. your life will be easier and happier from now on
+        rr yo >> ~/.bashrc
 
-      click me and don't forget to dance!
+      congrats. your life will be easier and happier from now on.
+      don't forget to dance!
       https://www.youtube.com/watch?v=dQw4w9WgXcQ
       ======================================================
     EOS
